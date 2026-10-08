@@ -1,3 +1,4 @@
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -11,11 +12,16 @@ public class PlayerController : MonoBehaviour
     public float jumpHeight = 1.5f;
     [Tooltip("Default:-9.8f set the gravity of the player, which changes how fast the player falls, 0 being no gravity")]
     public float gravity = -9.8f;
+    [Tooltip("Smoothing time for the players rotation, constant used for updating")]
+    public float roationSmoothTime = 0.1f;
 
     [Header("Ground Check")]
     public Transform groundCheck;
     public float groundDistance;
     public LayerMask groundMask;
+
+    [Header("references")]
+    public Transform cameraTransform;
 
     //private variables
     CharacterController _characterController;
@@ -25,10 +31,17 @@ public class PlayerController : MonoBehaviour
     bool _isJumping;
     float _jumpCooldown = 0f;
     bool _jumpPressed;
+    float _rotationVelocity;
 
     private void Awake()
     {
         _characterController = GetComponent<CharacterController>();
+
+        //Auto find the cmaer in scene if not assigned
+        if(cameraTransform == null && Camera.main != null )
+        {
+            cameraTransform = Camera.main.transform;
+        }
     }
 
     /// <summary>
@@ -69,7 +82,15 @@ public class PlayerController : MonoBehaviour
 
         float speed = moveSpeed;
 
-        Vector3 moveDir = new Vector3(_moveInput.x, 0f, _moveInput.y);
+        //camera related directional rotation
+        float targetAngle = Mathf.Atan2(_moveInput.x, _moveInput.y) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
+
+        //Smoothed rotation toward movement direction
+        float smoothAngle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref _rotationVelocity, roationSmoothTime);
+
+        transform.rotation = Quaternion.Euler(0f, smoothAngle, 0f);
+
+        Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward; // OG new Vector3(_moveInput.x, 0f, _moveInput.y);
         _characterController.Move(moveDir.normalized * speed * Time.deltaTime);
     }
 
