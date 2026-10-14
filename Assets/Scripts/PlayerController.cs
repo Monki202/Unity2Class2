@@ -1,4 +1,5 @@
 using Unity.Mathematics;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -8,6 +9,8 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     [Tooltip("Set the speed of the player movement")]
     public float moveSpeed = 5f;
+    [Tooltip("Set the speed of the player movement while sprinting")]
+    public float sprintSpeed = 10f;
     [Tooltip("Set the height of the players jump")]
     public float jumpHeight = 1.5f;
     [Tooltip("Default:-9.8f set the gravity of the player, which changes how fast the player falls, 0 being no gravity")]
@@ -29,6 +32,7 @@ public class PlayerController : MonoBehaviour
     Vector2 _moveInput;
     bool _isGrounded;
     bool _isJumping;
+    bool _sprintHeld;
     float _jumpCooldown = 0f;
     bool _jumpPressed;
     float _rotationVelocity;
@@ -64,6 +68,11 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    public void OnSprint(InputValue value)
+    {
+        _sprintHeld = !_sprintHeld;
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -80,7 +89,7 @@ public class PlayerController : MonoBehaviour
             return;
         }
 
-        float speed = moveSpeed;
+        float speed = _sprintHeld? sprintSpeed : moveSpeed;
 
         //camera related directional rotation
         float targetAngle = Mathf.Atan2(_moveInput.x, _moveInput.y) * Mathf.Rad2Deg + cameraTransform.eulerAngles.y;
