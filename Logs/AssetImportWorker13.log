@@ -1,0 +1,419 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/respin/6000.4.12f1-6df48370b9ce' branch; Version is '6000.4.12f1 (3ca267ce8005) revision 3973735'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-21T18:02:09Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008030789" at "2026-10-21T18:02:09.6343933Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.4.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+50033
+-licensingIpc
+LicenseClient-008030789
+-force-d3d12
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2
+C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [18140]  Target information:
+
+Player connection [18140]  * "[IP] 10.72.46.96 [Port] 0 [Flags] 2 [Guid] 2500465370 [EditorId] 2500465370 [Version] 1048832 [Id] WindowsEditor(7,N209C2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18140]  * "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 2500465370 [EditorId] 2500465370 [Version] 1048832 [Id] WindowsEditor(7,N209C2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18140]  * "[IP] 192.168.52.1 [Port] 0 [Flags] 2 [Guid] 2500465370 [EditorId] 2500465370 [Version] 1048832 [Id] WindowsEditor(7,N209C2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18140] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18140] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.48 ms, found 4 plugins.
+Initialize engine version: 6000.4.12f1 (3ca267ce8005)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.4.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:          NVIDIA
+    VRAM:            11944 MB
+    App VRAM Budget: 11176 MB
+    Driver:          32.0.16.1047
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-008030789"
+[Licensing::IpcConnector] LicenseClient-008030789 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008030789-6000.4.12" at "2026-10-21T18:02:11.0669145Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18572, path: "C:/Program Files/Unity 6000.4.12f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              8a3b9d72e15a46bd8b5f67f8baed7e1a
+  Correlation Id:          9517fba1f8eea71b0ed838585b0ad7fe
+  External correlation Id: 8638499922557760423
+  Machine Id:              SnME6mEpmG4m5jtlUe+6jdd/6Eg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-008030789-6000.4.12" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008030789-6000.4.12-notifications" at "2026-10-21T18:02:11.0780459Z"
+[Licensing::Module] Licensing Background thread has ended after 1.44s
+[Licensing::Module] Licensing is initialized (took 0.42s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Y6G4-D3WY-389W-ANZ9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474486870480-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity 6000.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.430098 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.288 seconds
+Domain Reload Profiling: 1060ms
+	BeginReloadAssembly (107ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (484ms)
+	LoadAllAssembliesAndSetupDomain (145ms)
+		LoadAssemblies (104ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (137ms)
+				TypeCache.ScanAssembly (125ms)
+	FinalizeReload (289ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (39ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (78ms)
+			ProcessInitializeOnLoadMethodAttributes (60ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Y6G4-D3WY-389W-ANZ9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474486870480-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.33 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 2.69 ms, found 4 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Unity2Class2
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.582 seconds
+Domain Reload Profiling: 1310ms
+	BeginReloadAssembly (144ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (472ms)
+		LoadAssemblies (345ms)
+		AnalyzeDomain (203ms)
+			TypeCache.Refresh (135ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (583ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 2.39 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7288 unused Assets / (5.3 MB). Loaded Objects now: 8130.
+Memory consumption went from 165.5 MB to 160.2 MB.
+Total: 6.788200 ms (FindLiveObjects: 0.631300 ms CreateObjectMapping: 0.570500 ms MarkObjects: 3.782800 ms  DeleteObjects: 1.801600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173664.866420 seconds.
+  path: Assets/Animations/THE REAL HELLO/textures/pants_short_dif.png
+  importAddress: Guid(cc6b75c718017134e8f6e8607e1ff5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/textures/pants_short_dif.png using Guid(cc6b75c718017134e8f6e8607e1ff5b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'a4507e4b764d75960eef09856256876a') in 0.0512388 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=814cca90200989b655a19820955abd3b DependenciesID=2b452dc3b09508b46cffa33d819492ef StaticDependenciesID=04b6b3a1f1f417df370dc6470ad5ca80 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animations/THE REAL HELLO/textures/skin_normal.tga.png
+  importAddress: Guid(0f9f45ae69aaada478e2a08ba447573f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/textures/skin_normal.tga.png using Guid(0f9f45ae69aaada478e2a08ba447573f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '8121381309b739fafe4228ef001bcd97') in 0.008102 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=19a9aec830432c1ab0649172ea12703e DependenciesID=a1eb1b9ba308411a25a3cd7fb7180197 StaticDependenciesID=2281c1e9a193565136a3d7fadb1c64e6 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.189607 seconds.
+  path: Assets/Scripts/PlayerInteractor.cs
+  importAddress: Guid(f1681aa0c5eef2946b0959c31703a4ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/PlayerInteractor.cs using Guid(f1681aa0c5eef2946b0959c31703a4ad) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9d71c8412e1b410cefb778d82f2b216d') in 0.0502466 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=272ca332c53df775790f6dc6b414bc7a DependenciesID=ea841a001ce4fa5cad54e103c547bf2f StaticDependenciesID=d92c33060960fbd6a9aac64e70a5bdbe 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animations/Hello neighbor/Breathing Idle.fbx
+  importAddress: Guid(a03a5600c650923458f29836d0829b2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Hello neighbor/Breathing Idle.fbx using Guid(a03a5600c650923458f29836d0829b2e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '360872416eba9791dd2a446d8a43ea19') in 0.0414745 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=48769c878831108f73487f832950c4a9 DependenciesID=98273dd8664d1b3106d857811c87c850 StaticDependenciesID=3600815fc5c943eb27ba5c2977725f92 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 139
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animations/Old/LilTimm/Ch09_1001_Specular.png
+  importAddress: Guid(4ee2fdfcceed0ee42a9e98d6da770875) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Old/LilTimm/Ch09_1001_Specular.png using Guid(4ee2fdfcceed0ee42a9e98d6da770875) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '62ea1d18a3b226dd9cc4687c21dc3495') in 0.0246837 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f29162f72033a875c7a0c614d7ad4f28 DependenciesID=d7b6f3b9bc48b69f8654cb3b45cf025a StaticDependenciesID=10b0106be343c897cddd4aa9414b6a0e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Animations/Hello neighbor/Jumping.fbx
+  importAddress: Guid(c0de865a4af9c48479ee52b78a0e63db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Hello neighbor/Jumping.fbx using Guid(c0de865a4af9c48479ee52b78a0e63db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e2c0916fcf672cf4b93e37d38f62fbe1') in 0.011343 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fb21a02a198c86d274fe66a5ccce4d71 DependenciesID=8e38a8df932d4dff6731e48280f40580 StaticDependenciesID=3776b45a6ff1b14b3a0ea53af265ecb0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 139
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_LookAround.fbx
+  importAddress: Guid(8c73ae63ebc1e8c4891f3ecffee93f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_LookAround.fbx using Guid(8c73ae63ebc1e8c4891f3ecffee93f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '11b9cfd174a28815a0e4025024f57fa7') in 0.0383623 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3db7bc2da2f38f1e33db4741a7f24227 DependenciesID=10ad8307747ac890d04e4208294a89f0 StaticDependenciesID=4eaa42ad5b53b5d32dcd746fe0c2c690 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Animations/Old/Hello im/source/neighbour_lowpoly.fbx
+  importAddress: Guid(155580f6bc383b34685e982f147746f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Old/Hello im/source/neighbour_lowpoly.fbx using Guid(155580f6bc383b34685e982f147746f3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fd73148530f3f1e542eed0f8e895f4cf') in 0.1564296 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=39a2f3b0c8a755450fb6506956132a23 DependenciesID=1b329761bb0cc1a1a0e91d321f02c257 StaticDependenciesID=4901ffabbb22702950576daae85e76de 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 550
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Animations/THE REAL HELLO/source
+  importAddress: Guid(7ea65079a2f7b3642a912f370fa40dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source using Guid(7ea65079a2f7b3642a912f370fa40dba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'ad79b9fa9000e9ff763bbfeec0422926') in 0.0068513 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=aa9e381dc48271ada997529d9b9df2da DependenciesID=22c93e7294a204c4a78e7ef59e2e32ed StaticDependenciesID=39f41a44cbcdb9e0cbfc291f54588b5e 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor
+  importAddress: Guid(6b35ea3a542875743b55efca361687c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor using Guid(6b35ea3a542875743b55efca361687c6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '972ad40e5379afedb7a1607f3e123a69') in 0.0035437 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=289f3278abbc72d373200bba68a3a478 DependenciesID=a07a6ba79557f74f2d784bd37a1f2ee7 StaticDependenciesID=25806eeaaab3605153d0094802631851 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Animations/Old/Hello im/source/skin_m.mat
+  importAddress: Guid(48ace07c57ea51244bb45d84429a34df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Old/Hello im/source/skin_m.mat using Guid(48ace07c57ea51244bb45d84429a34df) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9454b824d7dac7746f633f4af492df0b') in 0.0106188 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8e3bd38a18c1ebf1ce37680cea47e1da DependenciesID=5f6cbeb789469216d63fc960b6d1edd8 StaticDependenciesID=4160ced254be4d59f18db803aa82ca5c 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/THE REAL HELLO/textures/sweather_shoes_gloves_dif.png
+  importAddress: Guid(9bdd10fda0c345d43bffd81f44245488) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/textures/sweather_shoes_gloves_dif.png using Guid(9bdd10fda0c345d43bffd81f44245488) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c1ac7103e067da8e80f40844b3400e76') in 0.0120802 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=58c5626e1e344428734154e726deb371 DependenciesID=752de979e2b355990184b1027a719843 StaticDependenciesID=37f7fe50e7710a960680c31c7a7c1e93 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Animations/Old/Hello im/source/rig_JumpLoop.anim
+  importAddress: Guid(966554eb9f16a44458be15dfd333a083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Old/Hello im/source/rig_JumpLoop.anim using Guid(966554eb9f16a44458be15dfd333a083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '5373a9672d6958a78eadfd0853883f83') in 0.0547806 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e7a30fe450175a2b4c4d5193b38904b6 DependenciesID=771972b38bc802f3b9b7d1f758cee5ac StaticDependenciesID=5ff335b3f42ed4fab3c68565cf1eef0d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Animations/Old/LilTimm/Ch09_nonPBR@Slow Run (1).fbx
+  importAddress: Guid(2ce4af5e1a4992c4aace179152c90f73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Old/LilTimm/Ch09_nonPBR@Slow Run (1).fbx using Guid(2ce4af5e1a4992c4aace179152c90f73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '0ab23c850355acb38154a1fe0165dd3f') in 0.0119865 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1ab2650bc17696ebfa84963480397bb7 DependenciesID=a0d77cefc0d1ff24ffa768d19fb17740 StaticDependenciesID=a03902b4db6935f415ee266b2e4f8de8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 139
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animations/Old/LilTimm
+  importAddress: Guid(cd9f6fd8eab94cb4780e6898a277eea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Old/LilTimm using Guid(cd9f6fd8eab94cb4780e6898a277eea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'c8d149383d9fcdc233a44670ab397131') in 0.004522 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9fd90086038423344c408397b95edb3 DependenciesID=869cf1f210f071fac687b02338c947ba StaticDependenciesID=382de8f67bb873b818ec55ade6098a47 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Animations/THE REAL HELLO/textures/pants_short_dif.png
+  importAddress: Guid(cc6b75c718017134e8f6e8607e1ff5b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/textures/pants_short_dif.png using Guid(cc6b75c718017134e8f6e8607e1ff5b5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'fdf4670e145909e7e9e168f3a838ff62') in 0.0077021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9814094a971213de751bf5c374c30812 DependenciesID=59b64233660a3ff3d6f2dd3a6df7dddb StaticDependenciesID=b811f444645776ea7579c13d3ab7c954 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx
+  importAddress: Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx using Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e294edc303fa6d0cfd8924fa9a200aca') in 0.0445449 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ef142fd6d270a0a5ca6d46bfb70ea915 DependenciesID=f2ffb2fc59c5fd7815138a2661580fc5 StaticDependenciesID=e91a669c1b9ac23b3e72d063677b3a08 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/Old/Hello neighbor
+  importAddress: Guid(a780c495e7a6a1c498b885e7e7e79a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/Old/Hello neighbor using Guid(a780c495e7a6a1c498b885e7e7e79a57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '672f9687e225b150c1313e4be7409f32') in 0.004227 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b52545c31d2e4114775bd866fc4b2977 DependenciesID=f0d9b2f87fdabd6b5ffd900c745a56c6 StaticDependenciesID=e1d3729fb5cd97c21a91c5aafd12f349 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

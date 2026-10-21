@@ -1,0 +1,705 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.4/respin/6000.4.12f1-6df48370b9ce' branch; Version is '6000.4.12f1 (3ca267ce8005) revision 3973735'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Enterprise' Language: 'en' Physical Memory: 32188 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-21T18:02:16Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008030789" at "2026-10-21T18:02:16.8468193Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity 6000.4.12f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker15
+-projectPath
+C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2
+-logFile
+Logs/AssetImportWorker15.log
+-srvPort
+50033
+-licensingIpc
+LicenseClient-008030789
+-force-d3d12
+-job-worker-count
+9
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2
+C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [28604]  Target information:
+
+Player connection [28604]  * "[IP] 10.72.46.96 [Port] 0 [Flags] 2 [Guid] 805069971 [EditorId] 805069971 [Version] 1048832 [Id] WindowsEditor(7,N209C2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28604]  * "[IP] 192.168.153.1 [Port] 0 [Flags] 2 [Guid] 805069971 [EditorId] 805069971 [Version] 1048832 [Id] WindowsEditor(7,N209C2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28604]  * "[IP] 192.168.52.1 [Port] 0 [Flags] 2 [Guid] 805069971 [EditorId] 805069971 [Version] 1048832 [Id] WindowsEditor(7,N209C2) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28604] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28604] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 9
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.26 ms, found 4 plugins.
+Initialize engine version: 6000.4.12f1 (3ca267ce8005)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity 6000.4.12f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/008030789/OneDrive - New England Institute of Technology/Desktop/myprojects/Unity2Class2/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 5070 (ID=0x2f04)
+    Vendor:          NVIDIA
+    VRAM:            11944 MB
+    App VRAM Budget: 11176 MB
+    Driver:          32.0.16.1047
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity 6000.4.12f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56788
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity 6000.4.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-008030789"
+[Licensing::IpcConnector] LicenseClient-008030789 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008030789-6000.4.12" at "2026-10-21T18:02:18.313125Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 18572, path: "C:/Program Files/Unity 6000.4.12f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              0e596030b17745919fbcd3cd7a81cd35
+  Correlation Id:          9517fba1f8eea71b0ed838585b0ad7fe
+  External correlation Id: 8421842065131343876
+  Machine Id:              SnME6mEpmG4m5jtlUe+6jdd/6Eg=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-008030789-6000.4.12" (connect: 0.00s, validation: 0.00s, handshake: 0.01s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-008030789-6000.4.12-notifications" at "2026-10-21T18:02:18.3231154Z"
+[Licensing::Module] Licensing Background thread has ended after 1.48s
+[Licensing::Module] Licensing is initialized (took 0.27s).
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Y6G4-D3WY-389W-ANZ9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474486870480-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: C:/Program Files/Unity 6000.4.12f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.275749 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.291 seconds
+Domain Reload Profiling: 928ms
+	BeginReloadAssembly (127ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (332ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (124ms)
+		AnalyzeDomain (130ms)
+			TypeCache.Refresh (129ms)
+				TypeCache.ScanAssembly (118ms)
+	FinalizeReload (292ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (42ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Y6G4-D3WY-389W-ANZ9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474486870480-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.12 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Unity2Class2
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.674 seconds
+Domain Reload Profiling: 1444ms
+	BeginReloadAssembly (159ms)
+		DisableScriptedObjects (4ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (80ms)
+	LoadAllAssembliesAndSetupDomain (494ms)
+		LoadAssemblies (378ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (134ms)
+				TypeCache.ScanAssembly (121ms)
+			BuildScriptInfoCaches (61ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (675ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			BeforeProcessingInitializeOnLoad (101ms)
+			ProcessInitializeOnLoadAttributes (286ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 3.65 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7288 unused Assets / (5.7 MB). Loaded Objects now: 8130.
+Memory consumption went from 165.5 MB to 159.8 MB.
+Total: 7.595500 ms (FindLiveObjects: 0.718700 ms CreateObjectMapping: 0.720200 ms MarkObjects: 3.815800 ms  DeleteObjects: 2.338600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 173812.809599 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  importAddress: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '2ce65dbc0bae13f18f71da0d747f088d') in 0.0570986 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eceecb8e95cb81695b973ec1f5fb3778 DependenciesID=0f4fa4059033d0abff0e18e8bd0eca2e StaticDependenciesID=0a61a256dbae17263ace55cd8b2a5854 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.139523 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx
+  importAddress: Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx using Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'dbbb1500bf838ecde06f9d75a59352be') in 0.5850793 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ece2a2c6f0f721a7c18158aa3a7e0f0 DependenciesID=a6575250e31dfbb98ae4c3a0eb85e6a1 StaticDependenciesID=674bb1324af09a673d7b3219afc35494 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302041 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx
+  importAddress: Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx using Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd91e8aeba1159cb2b24fcc5309185370') in 0.0758013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7a6af91397d1993fbb64006a59cfbd1a DependenciesID=6462524af0b0623647af2bff042c2e5b StaticDependenciesID=3acd342dd4124e145daf28553c4b42ca 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.401195 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_Idle.fbx
+  importAddress: Guid(3af7093cf4b803341815a9e9ab49bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_Idle.fbx using Guid(3af7093cf4b803341815a9e9ab49bfc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7642925a378467525b626705ff4f257e') in 0.0556917 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69e30652d9830cc73bb8a7014312994b DependenciesID=bae37d2d904957b9696ab9d2da66ef12 StaticDependenciesID=35b84a8b9adb08480be5634b8dcf660f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.854338 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_Idle.fbx
+  importAddress: Guid(3af7093cf4b803341815a9e9ab49bfc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_Idle.fbx using Guid(3af7093cf4b803341815a9e9ab49bfc3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '569fbfa640cdd69b6f88c9866ca57cb1') in 0.0246125 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b68b0910608eecceb0297ca05a3abd98 DependenciesID=c342283e71b139ec594c3738c01992e4 StaticDependenciesID=5c23171c8c6d1591833ce7180a4b9fa7 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.280836 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpEnd.fbx
+  importAddress: Guid(f087db56a505e0241ac96de0e5c81de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpEnd.fbx using Guid(f087db56a505e0241ac96de0e5c81de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'd340fc83db86e5e76a50f055e8344e18') in 0.0581108 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=11602046a41fdc036b9e0dfd4914636d DependenciesID=ed35bf7935954ac3244a678c0809577b StaticDependenciesID=2921569e4cb8f18e29b87aaa243bf2cd 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.852763 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpEnd.fbx
+  importAddress: Guid(f087db56a505e0241ac96de0e5c81de2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpEnd.fbx using Guid(f087db56a505e0241ac96de0e5c81de2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '9ed3e650dcb3669f6012341e4cac0200') in 0.0228412 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b5c962a570fcb5f21af36d9327bd7f42 DependenciesID=8409854675c8cca3d91d0dd12ac670fe StaticDependenciesID=5e8e64faaa33e093e1bb2826e7076861 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.350260 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpLoop.fbx
+  importAddress: Guid(d360eade0f70a12408b4451e227cbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpLoop.fbx using Guid(d360eade0f70a12408b4451e227cbeb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '659a68ad296e4f976404d9d2789c62d9') in 0.0532619 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4317832b13b78c7aa2fa8aca29edf9f4 DependenciesID=24646542d8b4a0230a40d12900a9d387 StaticDependenciesID=5290f5aafd0f557d18ee8ad80abe99d8 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.852455 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpLoop.fbx
+  importAddress: Guid(d360eade0f70a12408b4451e227cbeb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpLoop.fbx using Guid(d360eade0f70a12408b4451e227cbeb4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'e38ee44e6357e13f558df58baced988a') in 0.0262149 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=56546645b0ed20a77af5ea7e43838c06 DependenciesID=7ecae11a521a2f2e23680222dff748f8 StaticDependenciesID=3a9344e32a58570a2b8f4673ec4a7c26 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.550271 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpStart.fbx
+  importAddress: Guid(fabcf2b4453279b4db02ea73e342988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpStart.fbx using Guid(fabcf2b4453279b4db02ea73e342988a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'fca74b33a2d380ca4a9e514d80e61611') in 0.0568438 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8374fca98657462cf753d9409ee80ae7 DependenciesID=53640df27a4c2629ccb9d9132ef16f89 StaticDependenciesID=b076477e7defe7127aa66ba4f4dabaf9 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.853657 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpStart.fbx
+  importAddress: Guid(fabcf2b4453279b4db02ea73e342988a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_JumpStart.fbx using Guid(fabcf2b4453279b4db02ea73e342988a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'a2191fd851af7386c8527e7134f5f25b') in 0.0248204 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c44434244d563709cc2c8fc15f9d88d0 DependenciesID=2c93a30dee73843bdaa54010698649f3 StaticDependenciesID=6a67676038f4a11bcac8f4c03ad70020 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.783021 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_LookAround.fbx
+  importAddress: Guid(8c73ae63ebc1e8c4891f3ecffee93f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_LookAround.fbx using Guid(8c73ae63ebc1e8c4891f3ecffee93f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'e707d451cfc462b7c40b6c5f9836475a') in 0.0607361 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=27636c818cca45298bdcaeabc5f98f4c DependenciesID=a6ebf02034b58bcf0c6a1f68c188b39f StaticDependenciesID=25019cefc3172daa90c2772df7da9278 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.846529 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_LookAround.fbx
+  importAddress: Guid(8c73ae63ebc1e8c4891f3ecffee93f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_LookAround.fbx using Guid(8c73ae63ebc1e8c4891f3ecffee93f44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: 'd7ebe08a4d369197e9641353b23bc5e7') in 0.0273022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=29bc51121d6e4902c8a70eefa0eda292 DependenciesID=8360c02ae422f88a072b15428ee8e1cd StaticDependenciesID=42002fbb995d25d87fa7f8b4af75d91f 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404971 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_RunAttack.fbx
+  importAddress: Guid(a7ca867ca56f35d4f8c1c69d4bcb1c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_RunAttack.fbx using Guid(a7ca867ca56f35d4f8c1c69d4bcb1c3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: 'defe036992329c88c21707ab2bf25044') in 0.0597716 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d9c6bfd1428cd3c395771719dc767730 DependenciesID=a542ad1fc731705a5a9dfe5ccf6ceec8 StaticDependenciesID=80ce331698e77a1582c9984a314ef920 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.844756 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_RunAttack.fbx
+  importAddress: Guid(a7ca867ca56f35d4f8c1c69d4bcb1c3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_RunAttack.fbx using Guid(a7ca867ca56f35d4f8c1c69d4bcb1c3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (Import Result ID: '825fb798c17082a5d411ee99c43c2e5c') in 0.0258673 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1c7ea27278a3af456be9a13bca51adc5 DependenciesID=477c25084844a916be6131b79b4a30f7 StaticDependenciesID=c04e6bbe65f4def9ee2daf2d85ec1bab 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.077794 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_Walking.fbx
+  importAddress: Guid(48d259902c5665f4391658cdd38ddf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_Walking.fbx using Guid(48d259902c5665f4391658cdd38ddf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '53fedba637436a5fc873f29de84238dc') in 0.057564 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c82ec03314cfd2fa65beea217f8a2229 DependenciesID=4d937183053523f9643613318d1451df StaticDependenciesID=3ccc535f4b012458457d330de48f30bf 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Y6G4-D3WY-389W-ANZ9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474486870480-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.24 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.550 seconds
+Domain Reload Profiling: 1292ms
+	BeginReloadAssembly (203ms)
+		DisableScriptedObjects (14ms)
+		CreateAndSetChildDomain (50ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (430ms)
+		LoadAssemblies (359ms)
+		AnalyzeDomain (150ms)
+			TypeCache.Refresh (8ms)
+			BuildScriptInfoCaches (132ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (550ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (216ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 4.32 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7285 unused Assets / (6.0 MB). Loaded Objects now: 8215.
+Memory consumption went from 187.1 MB to 181.2 MB.
+Total: 6.905300 ms (FindLiveObjects: 0.701500 ms CreateObjectMapping: 0.611000 ms MarkObjects: 3.500200 ms  DeleteObjects: 2.091500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 51.307158 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx
+  importAddress: Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/neighbour_lowpoly_Anim_rig_fall_run.fbx using Guid(d8f6d7b4ac48e1f438821c14cd6efb10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '80bff4c274aae0acca92fc2d0a095a02') in 0.4003875 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ece2a2c6f0f721a7c18158aa3a7e0f0 DependenciesID=8d01b2b60e7dbc037b331096bd19d9b8 StaticDependenciesID=aaa7e7376e0d79a2bbd2169e9b11ec7d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1391
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.382081 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/Unreal Take.anim
+  importAddress: Guid(1d4b3bb8c5983284fb81ac1934fadd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/Unreal Take.anim using Guid(1d4b3bb8c5983284fb81ac1934fadd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '3ae9f27c5493890e559ef51087c158c1') in 0.206611 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=66ab29336c8ca740324cd35d10de8390 DependenciesID=ef418c7f52107f0c7a8a74722a365a2e StaticDependenciesID=6b700756a18c5988df52304b17897d28 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.100470 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/Unreal Take 1.anim
+  importAddress: Guid(7796bee75b796bf498450737204615d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/Unreal Take 1.anim using Guid(7796bee75b796bf498450737204615d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '44103d48f660d87ded175d4f587c444a') in 0.0359566 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9d86c524c7abed3963fd3ef81fbdf03 DependenciesID=2ac0a820044ce5aad259210b476a2cb3 StaticDependenciesID=6a1ee6fa78bdb75b5fc1e274c76983b0 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: F4-Y6G4-D3WY-389W-ANZ9-XXXX
+  Product: Unity Personal
+  Type: ULF
+  Expiration: Unlimited
+[Licensing::Module] License group:
+  Id: 2474486870480-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.43 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.602 seconds
+Domain Reload Profiling: 1323ms
+	BeginReloadAssembly (190ms)
+		DisableScriptedObjects (15ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (346ms)
+		AnalyzeDomain (154ms)
+			TypeCache.Refresh (9ms)
+			BuildScriptInfoCaches (136ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (603ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (267ms)
+			ProcessInitializeOnLoadMethodAttributes (80ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.57 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7285 unused Assets / (5.6 MB). Loaded Objects now: 8238.
+Memory consumption went from 189.7 MB to 184.1 MB.
+Total: 6.836000 ms (FindLiveObjects: 0.736100 ms CreateObjectMapping: 0.661200 ms MarkObjects: 3.442000 ms  DeleteObjects: 1.995500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.315869 seconds.
+  path: Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/Unreal Take 2.anim
+  importAddress: Guid(2253a341002627344827f8564cd8b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/THE REAL HELLO/source/Neighbor/Neighbor/animations/Unreal Take 2.anim using Guid(2253a341002627344827f8564cd8b625) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (Import Result ID: '7d7267e2fb132d11f09dd8fa4b58a990') in 0.1105056 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=40a2cdedc6dd8d33bfd52bb6b4bdd3af DependenciesID=a21a0fc6a98acfc45ab7b210c00cfe2b StaticDependenciesID=814e29760fd5a2ba0767ceced80ff56d 
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Settings.Tests.dll at Library/ScriptAssemblies/Unity.Settings.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.542 seconds
+Domain Reload Profiling: 1250ms
+	BeginReloadAssembly (172ms)
+		DisableScriptedObjects (3ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (425ms)
+		LoadAssemblies (341ms)
+		AnalyzeDomain (160ms)
+			TypeCache.Refresh (8ms)
+			BuildScriptInfoCaches (143ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (542ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (204ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (17ms)
+Refreshing native plugins compatible for Editor in 3.90 ms, found 4 plugins.
+Unloading 26 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7284 unused Assets / (5.9 MB). Loaded Objects now: 8241.
+Memory consumption went from 189.6 MB to 183.7 MB.
+Total: 9.073900 ms (FindLiveObjects: 0.923000 ms CreateObjectMapping: 0.729800 ms MarkObjects: 4.445300 ms  DeleteObjects: 2.974100 ms)
+
+Prepare: number of updated asset objects reloaded= 0

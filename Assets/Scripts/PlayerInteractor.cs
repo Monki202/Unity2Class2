@@ -17,6 +17,12 @@ public class PlayerInteractor : MonoBehaviour
             if(Physics.Raycast(ray, out RaycastHit hit, interactDistance, interactLayerMask))
             {
                 Debug.Log($"Interacted with: {hit.collider.name}");
+
+                if(hit.collider.name == "Door")
+                {
+                    DoorOpen door = hit.collider.GetComponent<DoorOpen>();
+                    door.doorOpen = true;
+                }
             }
         }
     }
